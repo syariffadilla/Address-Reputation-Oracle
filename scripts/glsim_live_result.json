@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "deploy_defaults",
+      "ok": true,
+      "detail": "stats={'admin': '0xB588cdD0DaDD161A70eE9Caa6Fe5154412e73AfE', 'caution': 0, 'check_count': 0, 'flagged': 0, 'no_flags_found': 0, 'total_disputes': 0, 'total_entries': 0, 'ttl_checks': 1000}",
+      "seconds": null
+    },
+    {
+      "name": "flagged_creator_live_flagged",
+      "ok": true,
+      "detail": "verdict=flagged triggered=honeypot_related_address,number_of_malicious_contracts_created count=2",
+      "seconds": 5.3
+    },
+    {
+      "name": "vitalik_eth_live_no_flags",
+      "ok": true,
+      "detail": "verdict=no_flags_found flag_count=0",
+      "seconds": 3.7
+    },
+    {
+      "name": "vitalik_bsc_live_no_flags",
+      "ok": true,
+      "detail": "verdict=no_flags_found flag_count=0",
+      "seconds": 4.1
+    },
+    {
+      "name": "ronin_live_flagged",
+      "ok": true,
+      "detail": "verdict=flagged triggered=sanctioned,stealing_attack,blacklist_doubt count=3",
+      "seconds": 3.7
+    }
+  ],
+  "contract_address": "0x1ac51e9561063a693d42f382958a65d8b04a24f9",
+  "stats": {
+    "admin": "0xB588cdD0DaDD161A70eE9Caa6Fe5154412e73AfE",
+    "caution": 0,
+    "check_count": 4,
+    "flagged": 2,
+    "no_flags_found": 2,
+    "total_disputes": 0,
+    "total_entries": 4,
+    "ttl_checks": 1000
+  }
+}
